@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="आवश्यक कागजात"
+    android:textColor="#FF0000"
+    android:textSize="35dp"
+    android:background="#70E4FF"
+    android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n# सक्कली नागरिकताको १ प्रती फोटोकपि । \n\n
+
+#  सक्कली Blood Group Card को १ प्रती फोटोकपि \n\n
+
+# १० रुपैयाँको टिकट कागजातमा टाँस्नको लागि ।\n\n
+
+# अनलाइन फोर्म भरेको कागजातको प्रिन्ट । \n\n
+
+# अँखाको कुनै समस्या भएमा Color Blindness चेक गरेको डाक्टरको अनुमतिपत्र । \n\n
+
+# यातायात व्यवस्था विभागबाट तोकियको दस्तुर ।\n\n"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

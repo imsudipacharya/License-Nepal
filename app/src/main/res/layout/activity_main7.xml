@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main7Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="परीक्षण स्थान"
+        android:textColor="#FF0000"
+        android:textSize="35dp"
+        android:background="#70E4FF"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="265dp"
+    android:orientation="vertical"
+    android:background="@drawable/trial">
+
+   <VideoView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:id="@+id/video"/>
+
+
+    <TextView
+        android:id="@+id/textv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="भिडियो हेर्न इन्टरनेट जडान गर्नुहोस्"
+        android:textColor="#FF0000"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:background="#FFC107"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/download"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/as2"
+            android:textStyle="bold"
+            android:text="Car Trial"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/downloads"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/as1"
+            android:text="Bike Trial"
+            android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="जरिवाना जानकारी"
+        android:textColor="#FF0000"
+        android:textSize="35dp"
+        android:background="#70E4FF"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nक) यातायात मार्फत जरिवाना हुने कसुरहरुः\n\n
+१.निर्धारित भाडा भन्दा बढी भाडा लिई सवारी चलाएको\n
+२.बाटो ईजाजत पत्र नलिई सार्वजनिक सवारी चलाएको\n
+३.सवारीको स्वरुप परिवर्तन तथा मोडिफाई गरेको\n
+४.वास्तविक नम्बर प्लेट नराखी आफुखुसी नम्बर राखी सवारी चलाएको वा चलाउन लगाएको\n\n\n
+
+
+(ख) रु१००० जरिवाना हुने कसुरहरु\n\n
+१. सवारीचालक अनुमतिपत्र प्राप्त नगरीसवारी चलाएको\n
+२. सार्वजानिक स्थानमा बाधा पुग्नेगरी मालसामान वा सवारी राखेमा\n
+३. दुर्घटनामा परेको सवारी तथा यात्रीको हानीनोक्सानी पुयाएको वा सम्पर्कमा नआएको\n
+४. मादकपदार्थ सेवनगरी सवारी चलाएको\n
+५. सवारीचालक अनुमतिपत्र प्राप्त नगरेको व्यक्तिलाई सवारी चलाउन दिएमा\n\n\n
+
+
+(ग) रु ५०० जरिवाना हुने कसुरहरु\n\n
+१.तोकिएको भन्दा बढि मालसामान राखेमा\n
+२. सवारीको वजन हद निर्धारण क्षेत्रमा बढि वजनको सवारी चलाएको\n
+३. सवारीको अन्य भागमा मानिस तथा मालसामान राखेको\n
+४. प्रयोजन बिपरीत सवारी चलाएको\n
+५. हेल्मेट नलगाएको\n
+६. सवारी आवागमनमा बाधा पुर्याएको\n
+७. अरु सवारीलाई खतरा हुने किसिमले सवारी राखेको\n
+८. छतमा यात्रु बोकेको वा राखेको\n\n\n
+
+
+(घ) रु १५०० जरिवाना हुने कसुरहरु\n\n
+१. ट्राफिक संकेत वा ईसारा उल्लंघन गरी सवारी चलाएको\n
+२. सवारी अड्याउन निषेध गरिएको ठाउँ वा समयमा सवारी अड्याएको\n
+३. सवारी मोड्न वा ध्वनि संकेत दिन निषेध गरिएको ठाउँमा सवारी मोडेको वा ध्वनि दिएको\n
+४. सडकमा गलत साईडबाट सवारी चलाएको\n
+५. एकतर्फी सडकमा सो विपरित सवारी चलाएको ।\n
+६. अवस्था ठिक नभएको सवारी चलाएको ।\n
+७. निर्धारित गतिभन्दा बढी गतिमा सवारी चलाएको ।\n
+८. राती बत्ती नबाली सवारी चलाएको ।\n
+९. सवारी चलाउन निषेध गरिएको ठाउँ वा समयमा सवारी चलाएको ।\n
+१०. नम्बर प्लेट नराखी सबारी चलाएको।\n
+११. सवारीको वजनको हद निर्धारण गरिएको ठाउँमा वजन भन्दा बढी वजनको सवारी चलाएको ।\n
+१२. पेटी नबाँधी वा हेलमेट नलगाई सवारी चलाएको ।\n
+१३. सवारीमा बस्ने वा राख्ने मानिस वा मालसामानको हद निर्धारित गरिएकोमा सो हद भन्दा बढी राखी सवारी चलाएको ।\n
+१४. सार्वजनिक सवारीको चालकले यात्री लिन ईन्कार गरेको ।\n
+१५. निर्धारित भाडा दर भन्दा बढी भाडा लिई सवारी चलाएको ।\n
+१६. लापरवाहीका साथ सवारी चलाएको ।\n
+१७. बाटो ईजाजत पत्र नलिई सार्वजनिक सवारी चलाएको ।\n
+१८. सचाअप, सदकी, सईप साथमा नराखी सवारी चलाएको ।\n\n\n
+
+"
+        android:textSize="20dp"
+
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="२४ घण्टे पुर्जि प्राप्त गरेपछि को Procedure:\n\n
+१) ट्राफिक नियम उल्लंघन गरे पश्चात ट्राफिक प्रहरी ले सवारी तथा यातायात व्यवस्था ऐन २०४९ को दफा १६४ बमोजिम चालक वा व्यवस्थापक बाट स.चा.अ.प. स.द.की वा स.इ.प. लिएर २४ घण्टे पुर्जि दिने गरेको छ ।\n
+२) उक्त पुर्जि प्रत्येक ट्राफिक प्रहरी ले स्थलमा नै उपलव्ध गराउछन् ।\n
+३) पुर्जि प्राप्त गरेको २४ घण्टामा सम्वन्धित ट्राफिक प्रहरी कार्यालय मा संपर्क राखी जरिवाना रकम वुझाउनु पर्ने छ ।\n\n\n"
+            android:textSize="25dp"
+            android:textColor="#FF0000"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>

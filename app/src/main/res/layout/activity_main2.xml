@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="35dp"
+        android:text="अनलाइन फारम भर्न यहाँ क्लिक गर्नुहोस्"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/button"
+        android:background="#A1CCEC"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="
+        नोट: पर्ची वा फारम बुझाउँदा तपाईंको नागरिकता प्रमाणपत्रको फोटोकपी र रक्त समूह प्रमाणपत्र रिपोर्ट आवश्यक छ\n\n
+        अनलाइन फारम दर्ताको खुल्ने समय: बिहान to बिहान १० बजे\n\n
+    फारम दर्ता गरिएको छ मात्र यदि त्यहाँ कोटा उपलब्ध छ\n\n
+    कोटा एक हप्ताको लागि अधिकतम विनियोजित (आइतवार, सोमबार, मंगलबार, बुधवार - बायोमेट्रिक मिति)\n\n
+    कोटी र मोबाइल नम्बर क्षेत्रहरू अनिवार्य र गैर-सम्पादन योग्य छन्\n\n
+    यातायात व्यवस्थापन कार्यालय भ्रमणको नियुक्ति मिति समाप्त भएपछि पुन: दर्ता गर्न १ 15 दिन पछि मात्र अनुमति दिइनेछ\n\n
+    पुन: दर्ता परीक्षा failure ० दिन पछि परीक्षा असफलताको स्थितिमा मात्र अनुमति दिइनेछ\n\n
+    आवेदकले CHECK STATUS बटन मार्फत अनुप्रयोगको साथै लाइसेन्स स्थिति जाँच गर्न सक्दछ\n\n
+    लिखित परीक्षा परिणाम बारे जान्न, निम्न जानकारी टाइप गर्नुहोस् र मोबाइलबाट number 33००१ मा पठाउनुहोस्\n\n
+    WT &lt;space&gt; &lt;आवेदक आईडी&gt;
+    जहाँ &lt;आवेदक आईडी&gt; बायो-मेट्रिक पछि तोकिएको संख्या हो
+    स्मार्ट कार्ड प्रिन्ट गरिएको वा नहुनेको बारे जान्नको लागि, निम्न जानकारी टाइप गर्नुहोस् र L 33००१ नम्बरमा मोबाइलएलसीबाट पठाउनुहोस् &lt;स्पेस&gt; &lt;आवेदक आईडी&gt;\n\n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="
+Online Form Fillup / Registration Process\n
+सवारी चालक अनुमति पत्रको अनलाइन फारम भर्ने तरिका\n\n
+
+    यातायात व्यवस्था ववभागको वेबसाइट www.dotm.gov.np मा जानहुोस\n\n
+    वेब साइटको Home Page मा यातायात व्यवस्था ववभागको चिनारी मुनि रहेको “अनलाइन सवारी चालक अनुमति पत्र” Link मा क्लिक (Click) गर्नुहोस\n\n
+    DRIVING LICENSE ONLINE REGISTRATION मा क्ललक (Click ) गर्नुहोस\n\n
+    CITIZENSHIP मा Nepal छानेर Proceed मा (Click) गर्नुहोस\n\n
+    आफ्नो व्यक्लतगत वववरण (DEMOGRAPHIC DETAILS) भर्नुहोस्\n\n
+    DATE OF BIRTH (DOB) छानेपछि आफै उमेर (AGE) आउनेछ\n\n
+    स्थायी ठेगाना (PERMANENT ADDRESS) भर्नुहोस्\n\n
+    यदि स्थायी र अस्थायी ठेगाना एकैभए SAME AS PERMANENT मा Check गर्नुहोस\n\n
+    आफुले दरखास्त दिन लागेको वर्ग छान्नुहोस\n\n
+    PROFESSIONAL OR NON PROFESSIONAL मा others छान्नुहोस\n\n
+    आफले दरखास्त दिन लागेको कार्यालय रहेको अञ्चल छान्नुहोस\n\n
+    सो अञ्चलको लाइसेन्स कार्यालय छान्नुहोस\n\n
+    याद राख्नहुोस Asterisk (*) लागेका विवरण अनिबार्य भर्नुहोस्\n\n
+    सबै विवरण भरेपछि SUBMIT मा Click गर्नुहोस\n\n
+    Are you sure you want to continue? Message आउदा OK मा Click गर्नुहोस\n\n
+    आफूले भरेको विवरण पुन एकपटक Check गरी फरक परे EDIT DETAILS मा Click गरी सच्याउनहुोस\n\n
+    विवरण ठीक भए Save Details मा Click गनहुोस\n\n
+    APPLICANT SAVED SUCESSFULLY देखिन्छ\n\n
+    OK मा Click गनुहोस\n\n
+    आफूले भरेको विवरणको Summary पुन देखिन्छ\n\n
+    PRINT मा Click गनुहोस\n\n
+    तपाईको विवरण र तपाईलाई प्रदान गरियको Reference Number सहितको १ पानाको विवरण Pdf file को रुपमा save हुन्छ\n\n
+    सो विवरण प्रिन्ट गरि तोकिएको मितिमा सम्बन्धित कार्यालय जानहुोस\n\n
+    आफूले भरेको विवरण गलत वा कुनै विवरण छुटेको भए कार्यालयमा Biometric Detail दिदा कार्यालयको अपरेटरलाई भन्नहुोस\n\n
+    ध्यान दिनहुोस निवेदकले भरेको विवरण फरक परेमा निवेदक स्वयम जिम्मेवार हुनेछ\n\n
+
+"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F70707"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/onlinefrm">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/onlineform"/>
+
+</LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
